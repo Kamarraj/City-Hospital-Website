@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+        <img src="images/HOSPITAL NAME.png" alt="Hospital logo with name" id="logo">
+        </div>
+    <div id="anker">
+    
+    <nav id="navigation">
+        <a href="#home">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#aboutus">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#department">Departments</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="doctor/index.html">Doctors</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#services">Services</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#contact">Contact</a>&nbsp;&nbsp; 
+    </nav>
+    </div>
+    <img src="images/phone.png" alt="Contact" id="contactinfo">
+    
+    </header>
+    <hr>
+    <main>
+        <section id="home">
+        <div class="hero">
+            <h1 id="heroh1"><ti id="ti1">Your Health,&nbsp;</ti><ti id="ti2">Our Priority</ti></h1>
+            <hr id="handlehr">
+            <h3 id="heroh3">Compassionate care for you and your family.</h3>
+            <div class="buttons">
+            <button class="makeappoinment"><a href="#appointment">Make Appointment</a></button> &nbsp;
+            <button class="viewdepartments"><a href="#department">View Departments</a></button>
+            </div>
+        </div>
+        </section>
+    </main>
+    
+        <section class="cards3" id="aboutus">
+    <div class="cards">
+        <img src="images/vehicle.png" alt="" class="icons">
+        <div>
+            <h3 class="cardh3">24/7 Emergency Care</h3>
+            <p>Always here for you in urgent situations.</p>
+        </div>
+    </div>
+
+    <div class="cards">
+        <a href="doctor/index.html" id="magnyfingid">
+            <img src="images/magnyfing glass.png" alt="" class="icons">
+        </a>
+        <div>
+            
+            <a href="doctor/index.html" id="hreffordr">
+            <h3 class="cardh3">Doctors</h3>
+            <p>Visit here specialist doctors.</p>
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="cards">
+        <img src="images/white heart.png" alt="" class="icons">
+        <div>
+            <h3 class="cardh3">Health Checkups</h3>
+            <p>Comprehensive medical examinations.</p>
+            
+        </div>
+    </div>
+</section>
+<section id="department">
+    <h1 id="depth1">Department</h1>
+<section id="departments">
+    <div>
+    <p id="cardiology"><button class="depts"><h2><a href="cardiology/index.html"><center>Cardiology Department<br><h3>Click Here to view</h3></center></a></h2></button></p>
+    <p id="orthopedics"><button class="depts"><h2><a href="orthopedics/index.html"><center>Orthopedics Department <br><h3>Click Here to view</h3></center></a></h2></button></p>
+    <p id="Neurology"><button class="depts"><h2><a href="neurology/index.html"><center>Neurology Department <br><h3>Click Here to view</h3></center></a></h2></button></p>
+    </div>
+    <div>
+    <p id="Pediatrics"><button class="depts"><h2><a href="pediatrics/index.html"><center>Pediatrics Department <br><h3>Click Here to view</h3></center></a></h2></button></p>
+    <p id="Gynecology"><button class="depts"><h2><a href="gynecology/index.html"><center>Gynecology Department <br><h3>Click Here to view</h3></center></a></h2></button></p>
+    <p id="General Medicine"><button class="depts"><h2><a href="general-medicine/index.html"><center>General Medicine Department <br><h3>Click Here to view</h3></center></a></h2></button></p>
+    </div>
+    <div>
+    <p id="Opthalmology"><button class="depts"><h2><a href="opthalmology/index.html"><center>Opthalmology Department <br><h3>Click Here to view</h3></center></a></h2></button></p>
+    <p id="Dental"><button class="depts"><h2><a href="denatal/index.html"><center>Dental Department <br><h3>Click Here to view</h3></center></a></h2></button></p>
+    <p id="Pathology"><button class="depts"><h2><a href="pathology/index.html"><center>Pathology Department <br><h3>Click Here to view</h3></center></a></h2></button></p>
+    </div>
+</section>
+ </section>
+<script src="script.js"></script>
+
+<div id="ai-chat-icon" onclick="toggleChat()">💬</div>
+
+
+<div id="ai-chat-box">
+  <div id="ai-header">
+    <span>🏥 Hospital AI Assistant</span>
+    <button onclick="toggleChat()">✖</button>
+  </div>
+
+  <div id="ai-messages"></div>
+
+  <div id="ai-input">
+    <input type="text" id="user-input" placeholder="Ask about doctors, fees, timing..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+<section id="services">
+    <h1 id="ourservices">Our Cervices</h1>
+    <img src="images/our crivices.png" alt="" id="ourservicesimg">
+</section>
+<section id="appointment">
+    <section id="contact">
+        <h1 id="ourservices">Get in Touch</h1>
+<div id="imgdr">
+    <div class="appbox">
+        <h2>Book an Appointment With Our Specialists</h2>
+
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number" required>
+
+            <select required>
+                <option value="">Select Department</option>
+
+                <option value="cardiology">Cardiology Department</option>
+                <option value="pediatrics">Pediatrics Department</option>
+                <option value="ophthalmology">Ophthalmology Department</option>
+
+                <option value="orthopedics">Orthopedics Department</option>
+                <option value="gynecology">Gynecology Department</option>
+                <option value="dental">Dental Department</option>
+
+                <option value="neurology">Neurology Department</option>
+                <option value="general-medicine">General Medicine Department</option>
+                <option value="pathology">Pathology Department</option>
+            </select>
+
+
+            <input type="date" required>
+            <input type="time" required>
+
+            <textarea placeholder="Message (Optional)"></textarea>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </div>
+</div>
+
+    </section>
+</section>
+<footer id="footer">
+    <div class="footer-container">
+
+        <div class="footbox">
+            <h3>City Hospital</h3>
+            <p>
+                City Hospital is committed to providing
+                quality healthcare with modern facilities
+                and experienced doctors.
+            </p>
+        </div>
+
+        <div class="footbox">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#department">Departments</a></li>
+                <li><a href="doctor/index.html">Doctors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footbox">
+            <h3>Departments</h3>
+            <ul>
+                <li>Cardiology</li>
+                <li>Neurology</li>
+                <li>Orthopedics</li>
+                <li>Gynecology</li>
+                <li>Dental</li>
+            </ul>
+        </div>
+
+        <div class="footbox">
+            <h3>Contact Info</h3>
+            <p>📍 Address: Else Where</p>
+            <p>📞 Phone: +91 12345 67890</p>
+            <p>✉️ Email: info@cityhospital.com</p>
+        </div>
+
+    </div>
+
+    <div class="footerdown">
+        <p>© 2026 City Hospital. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

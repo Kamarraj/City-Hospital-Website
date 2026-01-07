@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #333;
+}
+
+.herosec {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.herosec img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.herosec::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.herosectxt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  z-index: 2;
+  padding: 0 15px;
+}
+
+.herosectxt h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.herosectxt p {
+  font-size: 30px;
+  opacity: 0.95;
+}
+
+.cardiointro {
+  background: #ffffff;
+  max-width: 1000px;
+  margin: 80px auto 40px;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+}
+
+.cardiointro p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.cardiointro ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.cardiointro li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.cardiointro h2 {
+  text-align: center;
+  color: #0b5ed7;
+  font-size: 22px;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    height: 300px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .cardio-intro {
+    margin: 20px;
+    padding: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero-text h1 {
+    font-size: 36px;
+  }
+}
+

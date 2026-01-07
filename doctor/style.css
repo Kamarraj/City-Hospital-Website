@@ -1,0 +1,76 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+.hero img{
+width:100%;
+height:660px;
+object-fit:cover;
+}
+
+.title{
+text-align:center;
+margin:40px 0;
+font-size:32px;
+font-weight:bold;
+}
+
+.doctors{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+padding:40px;
+}
+
+.drcard{
+border:1px solid #ddd;
+border-radius:10px;
+text-align:center;
+padding:20px;
+background:#fff;
+transition:0.3s;
+}
+
+.drcard:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.drcard img{
+width:100%;
+height:400px;
+object-fit:cover;
+border-radius:8px;
+}
+
+.drcard h2{
+margin:15px 0 5px;
+font-size:20px;
+}
+
+.drcard h3{
+color:#0077b6;
+font-size:16px;
+margin-bottom:10px;
+}
+
+.drcard p{
+font-size:14px;
+color:#555;
+line-height:1.6;
+}
+
+@media(max-width:900px){
+.doctors{
+grid-template-columns:repeat(2,1fr);
+}
+}
+
+@media(max-width:600px){
+.doctors{
+grid-template-columns:1fr;
+}
+}

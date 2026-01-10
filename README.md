@@ -1,3 +1,6 @@
+#Buy This Website for your own hospital:
+https://rakeshroushan.gumroad.com/l/city-hospital-website
+
 # 🏥 City Hospital – Professional Hospital Website
 
 City Hospital is a modern, clean, and user-friendly hospital website designed to represent a complete digital presence for a healthcare organization.
@@ -90,4 +93,5 @@ The website includes a **demo AI assistant interface** designed to help users wi
 All images used in this project are either AI-generated or free-to-use placeholder images.
 They are intended for demonstration purposes only.
 Buyers are encouraged to replace images with their own licensed content before production use.
+
 
